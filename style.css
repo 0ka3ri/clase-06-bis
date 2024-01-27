@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(202, 207, 211);
+}
+
+#contenedor-form {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing:1px;
+}
+
+#form {
+    background-color: white;
+    margin: 2vw 23vw;
+    padding: 3vw 4vw 4vw 4vw;
+    border-radius: 5px;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+}
+
+label {
+    font-size: 12px;
+    font-variant: normal;
+    color: rgb(160, 160, 160);
+}
+
+.contenedores-campos {
+    margin: 4px;
+    display:flex; 
+    flex-direction: column;
+}
+
+legend {
+    margin-bottom: 2%;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+}
+
+#about-you {
+    margin-bottom: 5%;
+    margin-left: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    border: 0px;
+}
+
+#about-row {
+    display:flex;
+}
+
+.inputs-about {
+    width: 120%;
+    height: 48px;
+    margin-top: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(189, 189, 189);
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+#your-company {
+    margin-bottom: 5%;
+    margin-left: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    border: 0px;
+}
+
+#row-1 {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#row-2 {
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.input-CS {
+    width: 150%;
+    height: 48px;
+    margin: 4px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(189, 189, 189);
+}
+
+.input-CC {
+    width: 130%;
+    height: 48px;
+    margin: 4px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(189, 189, 189);
+}
+
+#contenedor-state {
+  display: block;
+}
+
+#contenedor-sign {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#boton-sign {
+    border-radius: 30px;
+    background-color: rgb(80, 106, 255);
+    width: 30%;
+    height: 46px;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
