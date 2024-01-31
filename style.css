@@ -10,11 +10,17 @@ body {
     letter-spacing:1px;
 }
 
-#form {
+form {
     background-color: white;
     margin: 2vw 23vw;
     padding: 3vw 4vw 4vw 4vw;
     border-radius: 5px;
+}
+
+.close {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
 }
 
 h1 {
@@ -54,10 +60,11 @@ legend {
 
 #about-row {
     display:flex;
+    justify-content: space-between;
 }
 
 .inputs-about {
-    width: 120%;
+    width: 180px;
     height: 48px;
     margin-top: 4px;
     border: 1px solid;
@@ -88,7 +95,7 @@ legend {
 }
 
 .input-CS {
-    width: 150%;
+    width: 300px;
     height: 48px;
     margin: 4px;
     padding-left: 8px;
@@ -98,7 +105,7 @@ legend {
 }
 
 .input-CC {
-    width: 130%;
+    width: 250px;
     height: 48px;
     margin: 4px;
     padding-left: 8px;
@@ -120,11 +127,16 @@ legend {
 #boton-sign {
     border-radius: 30px;
     background-color: rgb(80, 106, 255);
-    width: 30%;
-    height: 46px;
+    width: 33%;
+    height: 43px;
     font-variant: small-caps;
     font-size: 100%;
     color: white;
     cursor: pointer;
     letter-spacing: 1px;
+}
+
+#boton-sign:hover {
+    background-color: rgb(80, 219, 134);
+    transform: translateY(-5px);
 }
